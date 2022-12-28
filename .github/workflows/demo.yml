@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: Print to console
         run: echo Test console msg
+      - name: Print few lines
+        run:  
+          echo First Line
+          echo Second Line
+
